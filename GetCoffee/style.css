@@ -1,0 +1,123 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url('./assents/fonts/Nunito-Bold.ttf');
+}
+
+/* Estilização para toda a página */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: NunitoBold;
+    overflow-x: hidden;
+}
+
+/* Retirar estilização nos links */
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+/* Classe para Adicionar a todos os Elementos que terão display flex, evitando repitições */
+
+.ContainerFlex{
+    display: flex;
+}
+
+/* Classe para Adicionar a todos os Elementos que terão posição relativa, evitando repitições */
+
+.ContainerRelative{
+    position: relative;
+}
+
+/* Estilização do Menu */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5.5vw;
+    width: 100%;
+    box-shadow: 7px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.LogoMarca{
+    margin-left: 10vw;
+}
+
+.LogoMarca > img{
+    height: 27px;
+}
+
+.Menu{
+    gap: 2vw;
+    margin-right: 10vw;
+}
+
+/* Estilização do Main */
+
+.ContainerSection1{
+    align-items: center;
+    justify-content: space-around;
+    height: 49vw;
+}
+
+.ContainerSlogan{
+    width: 39vw;
+}
+
+.ContainerSlogan Button{
+    background-color: #FCA60F;
+    height: 4.3vw;
+    width: 21vw;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    margin-top: 5vw;
+    font-size: 1.6vw;
+}
+
+.Slogan{
+    font-size: 2.5vw;
+    font-weight: 700;
+    word-spacing: 4px;
+    text-align: start;
+}
+
+.ContainerRedesSociais{
+    margin-top: 2vw;
+    gap: 0.5vw;
+}
+
+.ContainerImagemCafe img{
+    height: 22vw;
+}
+
+/* Estilização do container com texto do Scroll Down */
+
+.ContainerScroll{
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6vw
+}
+
+.ContainerScroll img{
+    height: 2.5vw;
+    margin-bottom: 2vw;
+}
+
+/* Estilização das formas que ficam no fundo*/
+
+.forma{
+    position: absolute;
+}
+
+#forma1{
+    top: 12vw;
+    left: -10vw;
+}
+
+#forma2{
+    right: -17vw;
+}
